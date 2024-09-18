@@ -1,4 +1,4 @@
-local M
+local M = {}
 
 M.setup = function(config)
 	-- grab list of themes from the config OR whatever is already installed
