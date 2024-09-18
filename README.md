@@ -17,7 +17,11 @@ Adapt this to whatever plugin manager you are using. I'm using [Lazy.nvim](https
 return {
     "tekunogosu/theme-adhd.nvim",
     config = {
-       colorschemes = ["gruvbox", "kanagawa-paper", "everforest"]
+       colorschemes = {
+            "gruvbox", 
+            "kanagawa-paper", 
+            "everforest"
+        }
     }
 }
 ```

@@ -9,6 +9,7 @@ M.setup = function(config)
 
 		local index = math.random(1, #colorschemes)
 		vim.cmd("colorscheme " .. colorschemes[index])
+		vim.notify(colorschemes[index], vim.log.levels.INFO)
 	end
 
 	-- run the plugin on startup
