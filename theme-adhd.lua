@@ -1,1 +1,2 @@
-return require("theme_adhd")
+local M = require("theme_adhd")
+return M
