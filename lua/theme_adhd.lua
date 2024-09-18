@@ -13,7 +13,7 @@ M.setup = function(config)
 
 	-- run the plugin on startup
 	vim.api.nvim_create_autocmd("VimEnter", {
-		callback = set_random_colortheme(),
+		callback = set_random_colortheme,
 	})
 end
 
